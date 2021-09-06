@@ -1,2 +1,2 @@
 # buble
-Professional, Social networking for the modern influencer
+## Professional Networking Platform for Content Creators and Influencers
