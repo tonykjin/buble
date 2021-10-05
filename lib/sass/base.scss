@@ -1,0 +1,21 @@
+
+body {
+    margin: 0 !important;
+    font-family: $font-primary;
+}
+
+.signup-hide {
+    display: none;
+}
+
+.signup-show {
+    display: relative;
+}
+
+.button-valid {
+    background-color: rgb(0, 133, 126) !important;
+}
+
+.button-invalid {
+    background-color: rgba(0, 133, 126, .5) !important;
+}

@@ -1,0 +1,53 @@
+$font-path: '../public/fonts';
+/* roboto-100 - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    src: 
+        url('#{$font-path}/Roboto-Thin.ttf') format('ttf'),
+  }
+  /* roboto-300 - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src:
+        url('#{$font-path}/Roboto-Light.ttf') format('ttf'),
+  }
+  /* roboto-regular - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src:
+        url('#{$font-path}/Roboto-Regular.ttf') format('ttf'),
+  }
+  /* roboto-500 - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src:
+        url('#{$font-path}/Roboto-Medium.ttf') format('ttf'),
+  }
+  /* roboto-700 - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src:
+        url('#{$font-path}/Roboto-Bold.ttf') format('ttf'),
+  }
+  /* roboto-900 - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: 
+        url('#{$font-path}/Roboto-Black.ttf') format('ttf'),
+  }
+
+// Font Variables
+
+$font-primary: 'Roboto', sans-serif;
